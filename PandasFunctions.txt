@@ -1,0 +1,26 @@
+import pandas as pd
+#assume the dataframe name to be df
+pd.DataFrame(dictionary)
+pd.read_csv()
+pd.read_clipboard()
+pd.read_excel()
+pd.read_html('url')
+pd.concat([old_df,new_df],axis=1)
+pd.to_numeric(df['column'])
+df.isnull().sum()
+df.loc[]
+df.iloc[]
+df.groupby([column names])[column name].sum()
+df['column name'].astype(int)
+df.info()
+df.describe()
+df.head()
+df.tail()
+df.fillna()
+df.dropna()
+df.drop_duplicates(inplace=True)
+df.shape
+del df['column']
+df.drop('column',inplace=True)
+df['column'].isin([val1,val2])
+df.sort_values('column_name',ascending=True or False)
