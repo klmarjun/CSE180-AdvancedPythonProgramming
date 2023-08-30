@@ -1,0 +1,32 @@
+import matplotlib.pyplot as plt
+
+
+Versus plot(plt.plot(x,y))
+scatter plot(plt.scatter(x,y))
+bar plot(plt.bar(x,y))
+histogram(plt.hist(x))
+Box Plot(plt.boxplot(x,y))
+PiePlot(plt.pie(x))
+
+#title
+plt.xlabel('')
+plt.ylabel('')
+plt.title('')
+
+#ticks
+plt.xticks(old list,new list,rotation)
+plt.yticks(old lst, new lst,rotation)
+
+#legend
+plt.plot(x,y,label='')
+plt.plot(x1,y1,label='')
+plt.legend()
+
+#limit
+plt.xlim([strt,stop])
+plt.ylim([strt,stop])
+
+#Subplots
+fig,ax=plt.subplots(nrows=2,ncols=2,figsize=(10,10))
+ax[0][0].set_xlabel('')
+ax[0][1].set_yticks(old,new,rotation=)
